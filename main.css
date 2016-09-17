@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eae9ee;
+  background-position: center top;
+  background-size: cover;
+  margin: 0px;
+}
+
+body { scrollbar-face-color:#5997CA;
+
+          scrollbar-shadow-color: #ffffff;
+
+          scrollbar-highlight-color: #ffffff;
+
+          scrollbar-3dlight-color: #5997CA;
+
+          scrollbar-darkshadow-color: #5997CA;
+
+          scrollbar-track-color: #F6F6F6;
+
+          scrollbar-arrow-color: #F6F6F6; }
+
+#menu {
+    width: 100%;
+		display: flex;
+	  bottom:0;
+			  top: 20px; /*высота шапки в пикселях*/
+				position: relative;
+
+				z-index: 1000;
+			    text-transform: uppercase;
+					text-align: center;
+			    line-height: 50px;
+			    background: null;
+}
+  #menu ul {
+    line-height: normal;
+    padding:0;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+    top: 20px; /*высота шапки в пикселях*/
+    position: fixed;
+    left: 50%;
+  }
+  #menu li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px;
+    position: relative;
+    right: 50%;
+  }
+     #menu li a {
+        padding:5px 10px;
+        color:#fff;
+        text-decoration: none;
+     }
+     #menu li a:hover{
+        background: null;
+        color: grey;
+     }
+
+     .container {
+         margin-right: auto;
+         margin-left: auto;
+         padding-left: 20px;
+         padding-right: 20px;
+     }
+
+#square {
+  width: 1600px;
+	height: 1px;
+  padding:0;
+  margin:0 auto;
+  text-align: center;
+  align-items: center;
+  top: 20px; /*высота шапки в пикселях*/
+  position: relative;
+  right: 50%;
+	background: white;
+}
+
+#page1 {
+  display: flex;
+  align-items: center;
+  background-image: url('/site/img/_MGL0896.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  height: 1080px;
+}
+
+#page2 {
+  display: flex;
+  align-items: center;
+  background-image: url('/site/img/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  height: 1080px;
+  }
+
+#page3 {
+  display: flex;
+  align-items: center;
+    height: 1080px;
+}
+
+#page4 {
+  display: flex;
+  align-items: center;
+  height: 1080px;
+}
